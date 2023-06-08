@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Mesero {
 
-	private ArrayList<Pedido> pedidos;
-	private String nombre;
+	private ArrayList<Pedido> pedidos = new ArrayList<Pedido>();
+	private String nombre = "";
 
 	public String getNombre() {
 		return nombre;
