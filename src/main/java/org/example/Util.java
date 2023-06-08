@@ -19,4 +19,11 @@ public class Util {
         }
         return true;
     }
+
+    public static boolean validarMayorA0(int numero) {
+        if (numero <= 0) {
+            return false;
+        }
+        return true;
+    }
 }

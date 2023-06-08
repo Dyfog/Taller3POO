@@ -11,6 +11,11 @@ public class Pedido {
 		return platos;
 	}
 
+	public Pedido(ArrayList<Plato> platos, int mesa) {
+		this.platos = platos;
+		this.mesa = mesa;
+	}
+
 	public int getMesa() {
 		return mesa;
 	}
