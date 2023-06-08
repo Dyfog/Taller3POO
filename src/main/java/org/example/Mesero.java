@@ -5,12 +5,20 @@ import java.util.ArrayList;
 public class Mesero {
 
 	private ArrayList<Pedido> pedidos;
+	private int nombre;
+
 
 	public ArrayList<Pedido> getPedidos() {
 		return pedidos;
 	}
-
-	private int nombre;
+	
+	@Override
+	public String toString() {
+		return "Mesero{" +
+				"pedidos=" + pedidos +
+				", nombre=" + nombre +
+				'}';
+	}
 
 	public void llevarPedido() {
 		// TODO - implement Mesero.llevarPedido
